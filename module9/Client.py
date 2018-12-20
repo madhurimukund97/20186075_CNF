@@ -1,8 +1,8 @@
 import socket
 
 def main():
-    host = '10.10.9.68'
-    port = 1518
+    host = '10.10.9.107'
+    port = 3666
 
     s = socket.socket()
     s.connect((host,port))

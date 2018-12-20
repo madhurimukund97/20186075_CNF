@@ -4,6 +4,7 @@ import threading
 
 def guess(c, addr):
     guess_number = random.randint(1,50)
+    # print("rando "+str(guess_number))
     c.send(str(guess_number).encode())
     guess_count = 0
     while True:
